@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>b02a3ea5-9243-44ce-96a7-a70a42bdc334</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FastEndpoints" Version="5.8.0" />
+        <PackageReference Include="FastEndpoints.Swagger" Version="5.8.0" />
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.3" />
+        <PackageReference Include="ValueOf" Version="2.0.31" />
+        <PackageReference Include="Dapper" Version="2.0.123" />
+    </ItemGroup>
+</Project>
